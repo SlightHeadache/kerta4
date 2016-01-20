@@ -87,7 +87,7 @@ namespace _4_5
                                 }
                                 break;
                             case 3:
-                                Console.WriteLine("Give new volume");
+                                Console.WriteLine("Give new frequency");
                                 Console.Write(">> ");
                                 checker = double.TryParse(Console.ReadLine(), out freqBuffer);
                                 if (checker == false)
